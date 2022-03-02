@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<!--
+	Modified from the Phantom template by HTML5 UP
+	html5up.net | @ajlkn
+-->
+<html>
+	<head>
+		<title>Projectile Motion - Physics Ace</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+		<!-- MathJax for displaying LaTeX equations -->
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+		
+		<script>MathJax.Hub.Config({
+			TeX: {extensions: ["action.js"]}
+		  });</script>
+	
+	</head>
+
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/Physics Ace-logos -PA.jpeg" alt="" /></span><span class="title">Physics Ace</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="circuits.html">Circuits</a></li>
+							<li><a href="circular.html">Circular Motion</a></li>
+							<li><a href="electrostatics.html">Electrostatics</a></li>
+							<li><a href="forces.html">Forces</a></li>
+							<li><a href="kinematics.html">Kinematics</a></li>
+							<li><a href="magnetism.html">Magnetism</a></li>
+							<li><a href="momentum.html">Momentum</a></li>
+							<li><a href="planetary.html">Planetary Motion</a></li>
+							<li><a href="projectiles.html">Projectile Motion</a></li>
+							<li><a href="waves.html">Waves</a></li>
+							<li><a href="workenergy.html">Work and Energy</a></li>
+							<li><a href="links.html">Links</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Projectile Motion</h1>
+							<section>
+								<h2>Introduction</h2>
+								<p>Projectile motion is a type of two dimensional motion.  As a projectile moves horizontally, it also moves vertically as it rises or falls through the air. Most introductory physics problems will neglect the effect of air resistance.</p>
+								<p>It is important to note that motion in the horizontal direction is independent of motion in the vertical direction. MythBusters has a great episode where they test this notion by dropping a bullet and firing a bullet from the same height:</p>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/tF_zv3TCT1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</section>
+							<hr>
+							<section>
+								<h2>Two Types of Projectile Motion</h2>
+								<p>The two types of projectile motion that you will encounter are <em>elevated horizontal launches</em> and <em>angled launches</em>.
+									The figure below shows the two types of projectile motion launched with the same horizontal velocity (v<sub>x</sub>).</p>
+								<img src="images/chart.svg" alt="graph of elevated horizontal launch vs angled launch for horizontal velocity">
+								<details>
+									<summary>What are some similarities and differences between these two curves?</summary>
+									<ol>
+										<li>Both projectiles travel the same horizontal distance. This is because they have the same horizontal velocity!</li>
+										<li>Both projectiles have some maximum height where the vertical velocity is zero.</li>
+										<li>The elevated horizontal launch has no initial vertical velocity.</li>
+									</ol>
+								</details>
+							</section>
+							<hr>
+							<section>
+								<!-- Simulations -->
+								<h2>Explore Projectile Motion with Simulations</h2>
+								
+								<!-- Elevated Horizontal Launch simulation -->
+								<h3>* Elevated Horizontal Launch</h3>
+								<p>The following simulation was created by <cite><a href="https://www.geogebra.org/u/newittphysics">Barb Newitt</a></cite> using <a href="https://www.geogebra.org/">Geogebra</a>.
+									Notice that the horizontal velocity is constant. This is true of all projectile motion, assuming air resistant is neglible. 
+									Try adjusting the height of the table. What changes? Try making hypotheses and testing them out with this simulation.</p>
+
+								<div class="container">
+									<iframe class="responsive-iframe" scrolling="no" title="Horizontal Projectiles" src="https://www.geogebra.org/material/iframe/id/zN9cHhSq/width/1575/height/695/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="1575px" height="695px" style="border:0px;"> </iframe>
+								</div>
+
+								<!-- Angled Launch simulation -->
+								<h3>* Angled Launch</h3>
+								<p>This simulation was created by <cite><a href="https://www.geogebra.org/u/kpharri">Keith Harrison</a></cite> using <a href="https://www.geogebra.org/">Geogebra</a>. 
+									Notice that just like with elevated horizontal launches, the horizontal velocity (v<sub>x</sub>) remains constant. Also notice that the vertical velocity (v<sub>y</sub>) is zero at maximum height. 
+									This does not mean, however, that there is zero <em>total</em> velocity at maximum height!
+								</p>
+								<div class="container">
+									<iframe class="responsive-iframe" scrolling="no" title="Projectile Motion" src="https://www.geogebra.org/material/iframe/id/GvKaH5Wu/width/1100/height/520/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1100px" height="520px" style="border:0px;"> </iframe>
+								</div>
+
+								<!-- Phet Projectile Simulation -->
+								<h3>* Create your own projectile motion using PhET</h3>
+								<p>In addition to Geogebra, <a href="https://phet.colorado.edu/">PhET</a> simulations are an excellent resource when learning a new concept. 
+									In this simulation, you can change the angle of the projectile to create an angled launch, or you can raise the height of the platform to create an elevated horizontal launch.</p>
+								<div class="container">
+									<iframe class="responsive-iframe" scrolling="no" src="https://phet.colorado.edu/sims/html/projectile-motion/latest/projectile-motion_en.html">
+									</iframe>	
+								</div>
+							</section>
+							<hr>
+							<section>
+								<!-- Type of Questions -->
+								<h2>Types of Projectile Motion Problems</h2>
+								<p>At most, there's only four types of projectile motion problems:</p>
+								<ul>
+									<li><a href="#Far">How Far?</a></li>
+									<li><a href="#High">How High?</a></li>
+									<li><a href="#Time">How Much Time?</a></li>
+									<li><a href="#Fast">How Fast?</a></li>
+								</ul>
+
+								<!-- How Far? -->
+								<h3 id="Far">"How Far?" (horizontal displacement)</h3>
+								<p>To find out how far a projectile travels horizontally, you need to know two things: time (t) and horizontal velocity (v<sub>x</sub>). 
+									In these types of problems, <em>the initial velocity (v<sub>i </sub>) is the same as the horizontal velocity (v<sub>x </sub>)</em>. 
+									If you are lucky, then you will be given both time and horizontal velocity in the problem, but don't count on it! 
+								 	It is possible that you may have to calculate time first before being able to solve for the horiontal displacement. 
+								 	To find out how to calculate time, jump down to <a href="#Time">"How Much Time?"</a> below.
+								</p>
+								<p>The equation that allows us to calculate how far a projectile moves in the horizontal direction is:</p>
+								<p>\(\texttip{\Delta x}{displacement (m)} = \texttip{v_x}{horizontal velocity (m/s)} \texttip{t}{time (s)}\)
+								<p>Some sources may choose to use d (for distance) instead of &Delta;x (for displacement):</p>
+								<p>\(\texttip{d}{distance (m)} = \texttip{v_x}{horizontal velocity (m/s)} \texttip{t}{time (s)}\)
+								<br>
+								<br>
+
+								<!-- The Range Equation -->
+								<h4>The Range Equation</h4>
+								<p>For angled launches, you also have the option using something known as the range equation. 
+									This equation is designed to work for angled launches where the projectile lands at the same elevation as it was launched. 
+									Notice that the initial angle is <em>doubled</em> in this equation. So for an angle of 45 degrees, you will be taking the sin of 90 degrees.
+									A 45 degree angle by the way, gives a maximum value of the range.
+								</p>
+								<p>\(\texttip{\Delta x}{displacement (m)} = \texttip{\frac{v_{i}^2}{g}}{square of the initial velocity (m/s) divided by gravity(9.8 m/s^2)} \texttip{sin2\Theta}{sine of twice the initial angle}\)
+								<br>
+								<p>Scroll over the equations above if you are unfamiliar with what the symbols represent.</p>
+								 
+								<!-- Example 1 -->
+								<div style = "background:lightblue">
+								<span><b>Example 1:</b> A ball rolls off the edge with an </span>
+									<div class="tooltip">initial velocity of 2 m/s. 
+										<span class="tooltiptext">initial velocity = horizontal velocity for horizontal launches!</span>
+									</div>
+								<span>If the ball takes </span>
+									<div class="tooltip">1 second
+										<span class="tooltiptext">time</span>
+									</div>
+								<span> to fall to the ground, <strong>how far</strong> from the edge of the table did the ball land?</span>
+								<br>
+								<br>
+								<details>
+									<summary>What information does the problem give us? Solve the problem.</summary>
+									<p>v<sub>x</sub> = 2 m/s, and t = 1 s</p>
+									<p>From this information, we can solve for displacement, which is &Delta;x = v<sub>x</sub>t = 2 * 1 = 2 meters</p>
+								</details>
+								</div>
+								<br>
+
+								<!-- Example 2 -->
+								<div style = "background:lightblue">
+									<span><b>Example 2:</b> A ball is shot into the air at a </span>
+									<div class="tooltip">53 degree angle with an initial velocity of 5 m/s. 
+										<span class="tooltiptext">knowing the angle and the initial velocity, we can use the range equation!</span>
+									</div>
+								<span>If the ball lands at the same elevation as it was launched, <strong>how far</strong> did the ball travel?</span>
+								<br>
+								<br>
+								<details>
+									<summary>What information does the problem give us, and which equation is the best to use?</summary>
+									<p>The problem gives us the initial velocity and the initial angle. Along with the fact that 
+										the problem tells us that the ball lands at the same elevation makes this a good candidate for using 
+										the range equation.</p>
+									<p>\(\Delta x = \frac{v_{i}^2}{g} = \Delta x = \frac{(5 m/s)^2}{9.8 m/s^2\)</p>
+								  </details>
+								</div>
+								  <br>
+								  <br>
+
+								<!-- How High? -->
+								<h3 id="High">"How High?" (vertical displacement)</h3>
+								<p>Lorem Ipsum</p>
+								<p>Blah blah</p>
+								<br>
+								<p>\(\Delta y = v_x t\)</p>
+								<br>
+								<span><b>Example:</b> A ball rolls off the edge with an </span>
+									<div class="tooltip">initial velocity of 2 m/s. 
+										<span class="tooltiptext">initial velocity = horizontal velocity for horizontal launches!</span>
+									</div>
+								<span>If the ball lands </span>
+									<div class="tooltip">2 meters
+										<span class="tooltiptext">displacement</span>
+									</div>
+								<span> from the edge of the table, how much time did it take the ball to land?</span>
+								<br>
+								<br>
+								<p>What information does the problem give us?</p>
+								<button onclick="myFunction()">Show Answer</button>
+								<div id="ExampleAnswer">
+									<span>v<sub>x</sub> = 2 m/s</span>
+									<span> and </span>
+									<span>&Delta;x = 2 m</span>
+								</div>
+							</section>
+
+							<!-- Quiz -->
+							<div id="interact-620dacf7120db200181cde85"></div><script>var app_620dacf7120db200181cde85;(function(d, t){var s=d.createElement(t),options={"appId":"620dacf7120db200181cde85","width":"800","height":"800","async":true,"host":"quiz.tryinteract.com", "footer":"show"};s.src='https://i.tryinteract.com/embed/app.js';s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs)if(rs!='complete')if(rs!='loaded')return;try{app_620dacf7120db200181cde85=new InteractApp();app_620dacf7120db200181cde85.initialize(options);app_620dacf7120db200181cde85.display();}catch(e){}};var scr=d.getElementsByTagName(t)[0],par=scr.parentNode;par.insertBefore(s,scr);})(document,'script');</script>
+
+
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<!--
+									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									-->
+									<li><a href="https://twitter.com/PhysicsAce_" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="mailto:physicsacewebsite@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Physics Ace. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/question.js"></script>
+			<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+
+	</body>
+</html>
