@@ -14,7 +14,6 @@
 		<!-- MathJax for displaying LaTeX equations -->
 		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-		
 		<script>MathJax.Hub.Config({
 			TeX: {extensions: ["action.js"]}
 		  });</script>
@@ -65,62 +64,64 @@
 					</nav>
 
 				<!-- Main -->
-					<!-- Table of Contents -->
-					<div id="toc_container">
-						<p class="toc_title">Contents</p>
-						<ul class="toc_list">
-						  <li><a href="#First_Point_Header">1 First Point Header</a>
-						  <ul>
-							<li><a href="#First_Sub_Point_1">1.1 First Sub Point 1</a></li>
-							<li><a href="#First_Sub_Point_2">1.2 First Sub Point 2</a></li>
-						  </ul>
-						</li>
-						<li><a href="#Second_Point_Header">2 Second Point Header</a></li>
-						<li><a href="#Third_Point_Header">3 Third Point Header</a></li>
-						</ul>
-						</div>
-						
 					<div id="main">
 						<div class="inner">
 							<h1>Projectile Motion</h1>
+
+							<!-- Table of Contents -->
+							<div id="toc_container">
+								<p class="toc_title">Contents</p>
+								<ul class="toc_list">
+									<li><a href="#intro">1 Introduction</a></li>
+									<li><a href="#types">2 Two Types of Projectile Motion</a>
+										<ul>
+											<li><a href="#elevated">2.1 Elevated Horizontal Launch</a></li>
+											<li><a href="#angled">2.2 Angled Launch</a></li>
+										</ul>
+									</li>
+									<li><a href="#Third_Point_Header">3 Third Point Header</a></li>
+								</ul>
+							</div>
+
+							<!-- Introduction -->
 							<section>
-								<h2>Introduction</h2>
+								<h2 id="intro">Introduction</h2>
 								<p>Projectile motion is a type of two dimensional motion.  As a projectile moves horizontally, it also moves vertically as it rises or falls through the air. Most introductory physics problems will neglect the effect of air resistance.</p>
 								<p>It is important to note that motion in the horizontal direction is independent of motion in the vertical direction. MythBusters has a great episode where they test this notion by dropping a bullet and firing a bullet from the same height:</p>
+								<!-- Mythbusters video -->
 								<iframe width="560" height="315" src="https://www.youtube.com/embed/tF_zv3TCT1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</section>
 							<hr>
+
+							<!-- Types of Projectile Motion -->
 							<section>
-								<h2>Two Types of Projectile Motion</h2>
+								<h2 id="types">Two Types of Projectile Motion</h2>
 								<p>The two types of projectile motion that you will encounter are <em>elevated horizontal launches</em> and <em>angled launches</em>.
 									The figure below shows the two types of projectile motion launched with the same horizontal velocity (v<sub>x</sub>).</p>
 								<img src="images/chart.svg" alt="graph of elevated horizontal launch vs angled launch for horizontal velocity">
 								<details>
-									<summary>What are some similarities and differences between these two curves?</summary>
+									<summary>Question: What are some similarities and differences between these two curves?</summary>
 									<ol>
 										<li>Both projectiles travel the same horizontal distance. This is because they have the same horizontal velocity!</li>
 										<li>Both projectiles have some maximum height where the vertical velocity is zero.</li>
 										<li>The elevated horizontal launch has no initial vertical velocity.</li>
 									</ol>
 								</details>
-							</section>
-							<hr>
-							<section>
-								<!-- Simulations -->
-								<h2>Explore Projectile Motion with Simulations</h2>
+								<hr>
 								
-								<!-- Elevated Horizontal Launch simulation -->
-								<h3>* Elevated Horizontal Launch</h3>
+								<!-- Elevated Horizontal Launch -->
+								<h3 id="elevated">Elevated Horizontal Launch</h3>
+								<p>An elevated horizontal launch is one in which ...</p>
 								<p>The following simulation was created by <cite><a href="https://www.geogebra.org/u/newittphysics">Barb Newitt</a></cite> using <a href="https://www.geogebra.org/">Geogebra</a>.
 									Notice that the horizontal velocity is constant. This is true of all projectile motion, assuming air resistant is neglible. 
 									Try adjusting the height of the table. What changes? Try making hypotheses and testing them out with this simulation.</p>
-
 								<div class="container">
 									<iframe class="responsive-iframe" scrolling="no" title="Horizontal Projectiles" src="https://www.geogebra.org/material/iframe/id/zN9cHhSq/width/1575/height/695/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="1575px" height="695px" style="border:0px;"> </iframe>
 								</div>
 
-								<!-- Angled Launch simulation -->
-								<h3>* Angled Launch</h3>
+								<!-- Angled Launch  -->
+								<h3 id="angled">Angled Launch</h3>
+								<p>An angled launch is one in which ...</p>
 								<p>This simulation was created by <cite><a href="https://www.geogebra.org/u/kpharri">Keith Harrison</a></cite> using <a href="https://www.geogebra.org/">Geogebra</a>. 
 									Notice that just like with elevated horizontal launches, the horizontal velocity (v<sub>x</sub>) remains constant. Also notice that the vertical velocity (v<sub>y</sub>) is zero at maximum height. 
 									This does not mean, however, that there is zero <em>total</em> velocity at maximum height!
@@ -129,8 +130,8 @@
 									<iframe class="responsive-iframe" scrolling="no" title="Projectile Motion" src="https://www.geogebra.org/material/iframe/id/GvKaH5Wu/width/1100/height/520/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1100px" height="520px" style="border:0px;"> </iframe>
 								</div>
 
-								<!-- Phet Projectile Simulation -->
-								<h3>* Create your own projectile motion using PhET</h3>
+								<!-- Create Your Own Launch -->
+								<h3 id="create-launch">Create your own projectile motion using PhET</h3>
 								<p>In addition to Geogebra, <a href="https://phet.colorado.edu/">PhET</a> simulations are an excellent resource when learning a new concept. 
 									In this simulation, you can change the angle of the projectile to create an angled launch, or you can raise the height of the platform to create an elevated horizontal launch.</p>
 								<div class="container">
@@ -139,6 +140,7 @@
 								</div>
 							</section>
 							<hr>
+							
 							<section>
 								<!-- Type of Questions -->
 								<h2>Types of Projectile Motion Problems</h2>
